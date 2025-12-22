@@ -5,7 +5,7 @@
   <title>نور الفرخ | Flutter Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Tailwind CSS CDN -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Arabic Font -->
@@ -16,49 +16,107 @@
   </style>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-purple-50 text-gray-700">
 
-  <!-- Hero -->
-  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-600 text-white">
+  <!-- 🌷 Hero Section -->
+  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-400 to-purple-600 text-white">
     <div class="text-center px-6">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">نور الفرخ</h1>
-      <p class="text-xl mb-6">مطوّرة Flutter | هندسة برمجيات ونظم معلومات</p>
-      <a href="#projects" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
-        مشاهدة أعمالي
+      <p class="text-lg md:text-xl mb-6">
+        مطوّرة Flutter | هندسة برمجيات ونظم معلومات
+      </p>
+      <a href="#about" class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-purple-100 transition">
+        تعرفي عليّ
       </a>
     </div>
   </section>
 
-  <!-- About -->
-  <section class="max-w-5xl mx-auto px-6 py-16">
-    <h2 class="text-2xl font-bold mb-6 text-indigo-600">نبذة عني</h2>
+  <!-- 🌸 About / CV -->
+  <section id="about" class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-purple-600 mb-6">نبذة عني</h2>
     <p class="text-lg leading-loose">
-      طالبة هندسة معلوماتية اختصاص هندسة برمجيات ونظم معلومات،
-      أمتلك خبرة قوية في تطوير تطبيقات Flutter مع بنية برمجية احترافية.
-      عملت سابقًا لدى شركة <strong>Octopus</strong>.
+      أنا <strong>نور الفرخ</strong>، طالبة هندسة معلوماتية اختصاص
+      <strong>هندسة برمجيات ونظم معلومات</strong>.
+      أمتلك شغفًا حقيقيًا بتطوير تطبيقات الموبايل باستخدام
+      <strong>Flutter</strong> وبناء تطبيقات منظمة وقابلة للتوسع.
+      <br><br>
+      لدي خبرة عملية في تطوير تطبيقات حقيقية، والعمل مع
+      <strong>واجهات برمجية (APIs)</strong>، وتطبيق معماريات حديثة مثل
+      <strong>MVC و Clean Code</strong>.
+      عملت سابقًا لدى شركة <strong>Octopus</strong>،
+      وأسعى دائمًا لتقديم تجربة مستخدم ناعمة وأنيقة تجمع بين
+      الأداء والجمال.
     </p>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
-    <h2 class="text-2xl font-bold mb-8 text-indigo-600">المشاريع</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div class="p-6 bg-white rounded-lg shadow">
-        <h3 class="font-semibold mb-2">تطبيق تعليم إلكتروني</h3>
-        <p class="mb-3 text-sm">Flutter + GetX</p>
-        <a href="#" class="text-indigo-600 font-semibold">GitHub</a>
-      </div>
-      <div class="p-6 bg-white rounded-lg shadow">
-        <h3 class="font-semibold mb-2">نظام تسجيل دخول</h3>
-        <p class="mb-3 text-sm">Flutter + REST API</p>
-        <a href="#" class="text-indigo-600 font-semibold">GitHub</a>
+  <!-- 💜 Skills -->
+  <section class="bg-white py-16">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-purple-600 mb-10">مهاراتي البرمجية</h2>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <div class="bg-purple-50 p-6 rounded-xl text-center shadow-sm">
+          <h3 class="font-semibold text-lg mb-2">Flutter</h3>
+          <p>Dart, GetX, MVC, Responsive UI</p>
+        </div>
+
+        <div class="bg-purple-50 p-6 rounded-xl text-center shadow-sm">
+          <h3 class="font-semibold text-lg mb-2">Mobile Development</h3>
+          <p>Android, REST APIs, Authentication</p>
+        </div>
+
+        <div class="bg-purple-50 p-6 rounded-xl text-center shadow-sm">
+          <h3 class="font-semibold text-lg mb-2">Software Engineering</h3>
+          <p>OOP, Clean Code, Problem Solving</p>
+        </div>
+
+        <div class="bg-purple-50 p-6 rounded-xl text-center shadow-sm">
+          <h3 class="font-semibold text-lg mb-2">Tools</h3>
+          <p>Git, GitHub, Postman</p>
+        </div>
+
+        <div class="bg-purple-50 p-6 rounded-xl text-center shadow-sm">
+          <h3 class="font-semibold text-lg mb-2">UI / UX</h3>
+          <p>Material Design, Soft UI, UX Thinking</p>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-indigo-600 text-white py-8 text-center">
-    <p>© 2025 نور الفرخ</p>
+  <!-- 🌷 Projects -->
+  <section class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-purple-600 mb-10">أعمالي</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-xl mb-2">تطبيق تعليم إلكتروني</h3>
+        <p class="text-sm mb-4">
+          تطبيق Quiz وتعليم إلكتروني باستخدام Flutter و GetX،
+          مع واجهات تفاعلية وتنظيم كامل للمحتوى.
+        </p>
+        <a href="#" class="text-purple-600 font-semibold">مشاهدة المشروع</a>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="font-semibold text-xl mb-2">نظام تسجيل دخول</h3>
+        <p class="text-sm mb-4">
+          نظام Register / Login متكامل مرتبط بـ API
+          مع إدارة مستخدمين وصلاحيات.
+        </p>
+        <a href="#" class="text-purple-600 font-semibold">مشاهدة المشروع</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 🌸 Footer -->
+  <footer class="bg-purple-600 text-white py-10 text-center">
+    <p class="text-lg font-semibold">نور الفرخ</p>
+    <p class="text-sm mt-2">Flutter Developer</p>
+    <p class="text-sm mt-1">© 2025</p>
   </footer>
 
 </body>
